@@ -7,25 +7,9 @@ body {
     transform-style: preserve-3d;
     position: relative;
   }
-  .item {
-    width:  90px;
-    height: 40px;
-    background-color: goldenrod;
-  }
-  #middle {
-    offset-position: auto;
-    offset-path: circle(60%) margin-box;
-    offset-distance: 25%;
-    offset-anchor: left top;
-
-  }
-.btn{
+#par{
 
     padding: 10px;
-    background-color: coral;
-    text-decoration-color: crimson;
-
-
-
-
+    text-align: center;
+    text-decoration: line-through;
 }
