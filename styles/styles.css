@@ -1,11 +1,16 @@
-body {
+html, body {
+    height: 100%;
+}
 
-    border: 5px solid black;
-    padding: 8px;
-    transform-style: preserve-3d;
-    position:absolute;
-    align-content: center;
-  }
+html {
+    display: table;
+    margin: auto;
+}
+
+body {
+    display: table-cell;
+    vertical-align: middle;
+}
 
 
 h1{
