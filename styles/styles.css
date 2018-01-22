@@ -5,11 +5,24 @@ body {
     border: 5px solid black;
     padding: 8px;
     transform-style: preserve-3d;
-    position: relative;
+    position:absolute;
   }
-#par{
+
+
+h1{
+
+    text-indent: 25px;
+    color: chocolate;
+    text-align: center;
+    letter-spacing: 5px;
+}
+
+p{
 
     padding: 10px;
     text-align: center;
     text-decoration: line-through;
+    color: crimson;
+    text-decoration: underline;
+    text-decoration-color: darkgoldenrod;
 }
