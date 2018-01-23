@@ -1,12 +1,13 @@
 html, body {
 
-   position: static;
+   position: relative;
+
+    height: 500px;
+    width: 100%;
     top: 0px;
     bottom: 0px;
     left: 0px;
     right: 0px;
-    height: 50%;
-    width: 100%;
 
 }
 
@@ -68,4 +69,14 @@ a{
     height: 750px;
     width: 1500px;
     border: 2px dotted;
+}
+#mainTitle{
+
+    text-align: center;
+    letter-spacing: 5px;
+
+}
+button{
+
+    vertical-align: middle;
 }
