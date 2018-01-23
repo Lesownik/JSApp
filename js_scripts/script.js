@@ -1,8 +1,16 @@
 
+document.body.addEventListener(e){
+
+
+
+
+}
+
+
 function drawLine(){
 
 
-    var canvas = document.getElementById("myCanvas");
+    var canvas = document.getElementById("workbench");
     var context = canvas.getContext("2d");
 
 
