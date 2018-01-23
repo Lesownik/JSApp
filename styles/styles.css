@@ -1,32 +1,71 @@
 html, body {
-    height: 100%;
+
+   position: static;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    height: 50%;
+    width: 100%;
+
 }
 
 html {
+
     display: table;
     margin: auto;
 }
 
 body {
+
     display: table-cell;
     vertical-align: middle;
 }
 
 
-h1{
+#mainPageTitle{
 
-    text-indent: 25px;
-    color: chocolate;
     text-align: center;
     letter-spacing: 5px;
+
 }
 
-p{
+#mainPageText{
 
+    clear: both;
     padding: 10px;
     text-align: center;
-    text-decoration: line-through;
     color: crimson;
-    text-decoration: underline;
+
     text-decoration-color: darkgoldenrod;
+}
+
+#mainPageImage{
+
+
+    width: 100%;
+    height: 100%;
+    position: fixed;
+
+}
+img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+
+}
+a{
+    font-size: 20px;
+
+
+
+}
+#workbench{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    clear: both;
+    height: 750px;
+    width: 1500px;
+    border: 2px dotted;
 }
